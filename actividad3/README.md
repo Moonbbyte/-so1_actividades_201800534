@@ -13,7 +13,7 @@ para esto se debe de configurar un archivo nginx.config el cual puede ser almace
 
 y copiar y pegar al contenedor a través de estas configuraciones en el nginx.Dockerfile al final de este:
 > RUN rm /etc/nginx/conf.d/default.conf
-COPY /nginxconfig/nginx.config /etc/nginx/conf.d 
+> COPY /nginxconfig/nginx.config /etc/nginx/conf.d 
 
 Con esto se solucionara el error
 
