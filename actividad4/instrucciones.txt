@@ -1,0 +1,9 @@
+Instrucciones:
+
+    Crear un systemd unit de tipo servicio para ejecutar un script imprima un saludo y la fecha actual.
+    Subir un readme file explicando el proceso de instalación del servicio.
+
+Detalles de entrega:
+
+    Entrega: Link al folder de GitHub
+    Nombre del folder: actividad4
