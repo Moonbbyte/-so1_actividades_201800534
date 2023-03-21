@@ -59,6 +59,9 @@ sudo systemctl enable saludo.service
 
 5. Ejecute el siguiente comando para iniciar el servicio de saludo:
 
+~~~
+sudo systemctl start saludo.service
+~~~
 
 >Ahora, el archivo `saludo.sh` se ejecutará automáticamente en cada inicio del sistema. Puede verificar el estado del servicio con el siguiente comando:
 
